@@ -1,0 +1,402 @@
+body{
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #27CBD3;
+
+}
+
+.profile{
+    width: 5rem;
+    position: relative;
+    left: 28rem;
+    top: 2rem;
+    border-radius: 100%;
+    box-shadow: 5px 10px 18px #a0dfe2;
+}
+
+.name{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    position: relative;
+    bottom:3rem;
+    left: 4rem;
+}
+.content-idea{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+h4{
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.mandatory{
+    color: grey;
+    font-weight: 400;
+}
+form{
+    text-align: left;
+    background-color: #74ECF2;
+    width: 25%;
+    height: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #1D9AA1;
+}
+
+textarea{
+    border-radius: 5px;
+    border: grey 1px solid;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    
+}
+input{
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: grey 1px solid;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.input-box{
+    width: 18.7rem;
+    
+}
+
+.submit-btn{
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #0F5154;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border: 1px solid rgb(197, 185, 185);
+    box-shadow: 5px 10px 18px #1D9AA1;
+    margin: 1rem auto 0.5rem;
+    position: relative;
+    left: 6.5rem;
+}
+
+.submit-btn:hover{
+   background-color: tomato;
+   transform: scale(1.04);
+}
+.developer{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    margin-top: 5rem;
+}
+
+/* Responsive 4K */
+@media screen and (max-width: 2560px) and (min-width: 1441px){
+    form{
+        width: 20%;
+        padding-left: 4rem;
+        padding-bottom: 2rem;
+    }
+    .profile{
+        width: 7rem;
+        position: relative;
+        left: 63rem;
+        top: 4rem;
+    }
+
+    .name{
+        width: 20%;
+        font-size: 3rem;
+        position: relative;
+        left: 69rem;
+    }
+
+    .content-idea{
+        font-size: 2rem;
+        width: 30%;
+        margin: auto;
+    }
+
+    textarea{
+        width: 90%;
+
+    }
+
+    .input-box{
+        width: 90%;
+        height: 2rem;
+    }
+    h4{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .submit-btn{
+        font-size: 1.5rem;
+        padding: 0.5rem 3rem;
+        position: relative;
+        left: 9.5rem;
+    }
+    .developer{
+        width: 7%;
+        margin: 6rem auto 1rem;
+        line-height: 1.5;
+    }
+    
+}
+
+/* Responsive Laptop - L */
+@media screen and (max-width: 1440px) and (min-width: 1025px){
+
+    form{
+        padding-left: 1.5rem;
+    }
+    .profile{
+        position: relative;
+        left: 28.5rem;
+    }
+
+    .content-idea{
+        width: 30%;
+        margin: 1rem auto;
+        line-height: 1.5;
+    }
+
+    textarea{
+        width: 95%;
+        
+    }
+
+    h4{
+        font-size: 1.2rem;
+    }
+
+    .input-box{
+        width: 95%;
+        height: 1.5rem;
+    }
+
+    .submit-btn{
+        font-size: 1rem;
+        padding: 0.5rem 3rem;
+        position: relative;
+        left: 4rem;
+    }
+
+    .developer{
+        width: 13%;
+        margin: 6rem auto 1rem;
+        line-height: 1.5;
+    }
+}
+
+/* Responsive Laptop*/
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    form{
+       width: 30%;
+       padding-left: 2.5rem;
+    }
+
+    .profile{
+        position: relative;
+        left: 21rem;
+    }
+
+    .content-idea{
+        width: 35%;
+        line-height: 2;
+        margin: 0.5rem auto;
+    }
+
+    .input-box{
+        width: 17rem;
+    }
+
+    .submit-btn{
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        position: relative;
+        left: 5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .developer{
+        width: 17%;
+        margin: 6rem auto 1rem;
+        line-height: 1.5;
+    }
+
+}
+
+/* Responsive Tablet */
+
+@media screen  and (max-width: 769px) and (min-width: 425px){
+    form{
+        width: 40%;
+        padding-left: 2.5rem;
+        padding-bottom: 2rem;
+
+    }
+    .profile{
+        position: relative;
+        left: 21rem;
+    }
+
+    .name{
+        position: relative;
+        top: 2rem;
+        left: 0;
+    }
+
+    .content-idea{
+        width: 35%;
+        line-height: 1.5;
+        margin: 2.5rem auto 1rem;
+        
+    }
+
+    .input-box{
+        width: 17rem;
+    }
+   
+    .submit-btn{
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        position: relative;
+        left: 5rem;
+    }
+
+    .developer{
+        width: 25%;
+        margin: 6rem auto 1rem;
+        line-height: 1.5;
+    }
+}
+
+/* Responsive Mobile */
+
+@media screen  and (max-width: 426px) and (min-width: 375px){
+     
+    form{
+        width: 70%;
+        margin-left: 2.2rem;
+    }
+
+    .profile{
+        position: relative;
+        left: 11rem;
+    }
+
+    .content-idea{
+        width: 70%;
+    }
+
+    .developer{
+        width: 40%;
+        margin: 6rem auto 1rem;
+        line-height: 1.5;
+    }
+
+}
+
+/* reponsive Mobile-Medium */
+
+@media screen  and (max-width: 376px) and (min-width: 321px){
+    form{
+        width: 83%;
+        margin: 1rem;
+    }
+
+    .profile{
+        position: relative;
+        left: 9.5rem;
+    }
+
+    .name{
+        position: relative;
+        top: 2rem;
+        left: 0;
+    }
+
+    .content-idea{
+        width: 80%;
+        margin: 3rem auto 1rem;
+    }
+
+    textarea{
+        width: 95%;
+        
+    }
+
+    h4{
+        font-size: 1.5rem;
+    }
+
+    .input-box{
+        width: 18.5rem;
+        height: 1.5rem;
+    }
+
+    .submit-btn{
+        font-size: 1.2rem;
+        padding: 0.5rem 2rem;
+        position: relative;
+        left: 5rem;
+    }
+
+    .developer{
+        width: 50%;
+        margin: 6rem auto 1rem;
+        line-height: 1.5;
+    }
+}
+
+/* Responsive Mobile- Small */
+
+@media screen  and (max-width: 320px){
+    form{
+        width: 85%;
+        padding-bottom: 2rem;
+    }
+    .profile{
+        position: relative;
+        left: 8rem;
+    }
+
+    .name{
+        font-size: 1rem;
+        position: relative;
+        left: 2.5rem;
+        top: 2rem;
+        width: 80%;
+    }
+
+    .content-idea{
+        margin-top: 4rem;
+    }
+
+    textarea{
+        width: 95%;
+    }
+
+    .input-box{
+        width: 95%;
+        height: 1.5rem;
+    }
+
+    .submit-btn{
+        position: relative;
+        left: 6rem;
+    }
+
+
+}
